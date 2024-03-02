@@ -1,0 +1,10 @@
+
+pygomas manager -np 20 -t 20 -j manager_dbelgar@gtirouter.dsic.upv.es -sj service_dbelgar@gtirouter.dsic.upv.es -m map_01
+
+cd \Documentos\.UPV\3r\2Q\AIN\---------------------ENTREGA PYGOMAS JOC -----------------------------\Entrega2\v3
+
+pygomas run -g pygomas.json
+
+pygomas render
+
+

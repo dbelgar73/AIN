@@ -1,0 +1,8 @@
+
+pygomas manager -np 25 -j manager_dbelgar@gtirouter.dsic.upv.es -sj service_dbelgar@gtirouter.dsic.upv.es -m map_arena
+
+cd Documentos\.UPV\3r\2Q\AIN
+
+pygomas run -g game_arena.json
+
+pygomas render

@@ -1,0 +1,58 @@
+{
+    "host": "gtirouter.dsic.upv.es",
+    "manager": "manager_dbelgar",
+    "manager_password": "secret",
+    "service": "service_dbelgar",
+    "service_password": "secret",
+    "axis": [
+        {
+            "rank": "basicMethods.Comandante",
+            "name": "COMANDANTE_dbelgar",
+            "password": "secret",
+            "asl": "bdicomandante.asl"
+        },
+		{
+            "rank": "basicMethods.BDISoldier_Int",
+            "name": "SOLDADO_dbelgar",
+            "password": "secret",
+            "amount": 5,
+            "asl": "bdisoldier.asl"
+        },
+        {
+            "rank": "basicMethods.BDIMedic_Int",
+            "name": "MEDICO_dbelgar",
+            "password": "secret",
+            "amount": 2,
+            "asl": "bdimedic.asl"
+        },
+         {
+            "rank": "basicMethods.BDIFieldOp_Int",
+            "name": "FIELDOP_dbelgar",
+            "password": "secret",
+            "amount": 2,
+            "asl": "bdifieldop.asl"
+        }
+        
+    ],
+    "allied": [
+       {
+           "rank": "BDISoldier",
+           "name": "allied_dbelgar",
+           "password": "secret",
+           "amount": 8,
+           "asl": "bdisoldier_Allied.asl"
+       },
+       {
+           "rank": "BDIMedic",
+           "name": "medic_allied_dbelgar",
+           "password": "secret",
+           "asl": "bdimedic_Allied.asl"
+       },
+        {
+           "rank": "BDIFieldOp",
+           "name": "fieldop_allied_dbelgar",
+           "password": "secret",
+           "asl": "bdifieldop_Allied.asl"
+       }
+  ]
+ }

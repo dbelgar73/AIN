@@ -1,0 +1,43 @@
+{
+    "host": "gtirouter.dsic.upv.es",
+    "manager": "manager_dbelgar",
+    "manager_password": "secret",
+    "service": "service_dbelgar",
+    "service_password": "secret",
+    "axis": [
+		{
+            "rank": "BDISoldier",
+            "name": "Soldado_enemigo_dbelgar",
+            "password": "secret",
+            "amount": 8,
+            "asl": "Soldier.asl"
+        },
+        {
+            "rank": "BDIMedic",
+            "name": "Medico_enemigo_dbelgar",
+            "password": "secret",
+            "asl": "medic.asl"
+        },
+         {
+            "rank": "BDIFieldOp",
+            "name": "Fieldop_enemigo_dbelgar",
+            "password": "secret",
+            "asl": "fieldop.asl"
+        }
+    ],
+     "allied": [
+        {
+            "rank": "acciones.Comandante",
+            "name": "COMANDANTE_dbelgar",
+            "password": "secret",
+            "asl": "fieldop.asl"
+        },
+        {
+            "rank": "acciones.Soldados",
+            "name": "SOLDADO_dbelgar",
+            "password": "secret",
+            "amount": 9,
+            "asl": "soldier.asl"
+        }
+   ]
+  }
